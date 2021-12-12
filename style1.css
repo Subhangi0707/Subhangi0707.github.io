@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: rgb(12, 7, 7);
+    color: rgb(223, 211, 211);
+    padding-inline: 40px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+main {
+    width: 80vw;
+    margin-inline: auto;
+
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.heading{
+    font-size: 29px;
+}
+
+.heading span {
+    border-bottom: 5px solid rgb(242, 239, 250);
+}
+.about img {
+    height: 12em;
+    width: 11em;
+}
+.skills4r {
+    display: flex;
+    font-size: 22px;
+    gap: 2rem;
+
+}
+
+.skill-4 ul{
+    padding-left: 0;
+}
+
+.icon-style{
+    font-size:24px;
+    color: aliceblue;
+}
+
+a:link, a:visited {
+    /* background-color: #f44336; */
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.nav-heading{
+    padding-top: 12px;
+}
